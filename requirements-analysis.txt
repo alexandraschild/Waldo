@@ -1,0 +1,9 @@
+# Analysis, notebook, and evaluator dependencies supplementing requirements.txt.
+pandas
+scipy
+statsmodels
+seaborn
+tqdm
+orjson
+jupyterlab
+ipykernel

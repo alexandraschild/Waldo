@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-27",
+  "website_directory": "website",
+  "github_pages_artifact_path": "website",
+  "experiment_entrypoints": [
+    "scripts/main_field.py",
+    "scripts/main_interpolation.py",
+    "scripts/main_scale.py",
+    "scripts/main_attention.py",
+    "scripts/main_cka.py",
+    "scripts/trajectory.py"
+  ],
+  "attention_analysis_directory": "scripts/attention_analysis",
+  "relocated_notebooks": [
+    "notebooks/metrics.ipynb",
+    "notebooks/trajectory_analysis.ipynb"
+  ],
+  "archived_files": [
+    {
+      "previous": "scripts/run_API_field_scripts.sh",
+      "archive": "/Users/alexandrakudaeva/Desktop/research_projects/Waldo/legacy_scripts/run_API_field_scripts.sh",
+      "sha256": "d8d48e0099f5a5637dad233bf728e0f3f3df94f92e79d24285fb1ca39158271c"
+    },
+    {
+      "previous": "scripts/run_API_scale_scripts.sh",
+      "archive": "/Users/alexandrakudaeva/Desktop/research_projects/Waldo/legacy_scripts/run_API_scale_scripts.sh",
+      "sha256": "da5a77aac71b533438bfc878cf23760f1b2a95e74fe26fdc3e304604c18fa892"
+    },
+    {
+      "previous": "scripts/run_all_scripts.sh",
+      "archive": "/Users/alexandrakudaeva/Desktop/research_projects/Waldo/legacy_scripts/run_all_scripts.sh",
+      "sha256": "9a4063bc9401b0db25f70baab699fa4ac0c3d15f9493871091a4a1b3b1c88ed3"
+    },
+    {
+      "previous": "scripts/run_field_scripts.sh",
+      "archive": "/Users/alexandrakudaeva/Desktop/research_projects/Waldo/legacy_scripts/run_field_scripts.sh",
+      "sha256": "610911ee9f0123017eb1872d9026c47d13db9788c0d5c9e51e4fba4c4ff4b9e8"
+    },
+    {
+      "previous": "scripts/run_interpolation_scripts.sh",
+      "archive": "/Users/alexandrakudaeva/Desktop/research_projects/Waldo/legacy_scripts/run_interpolation_scripts.sh",
+      "sha256": "1a39b5a9defe6a43b3b04caff345cea1acee2e4ca02ba63eee29d7795d89af88"
+    },
+    {
+      "previous": "scripts/run_scale_scripts.sh",
+      "archive": "/Users/alexandrakudaeva/Desktop/research_projects/Waldo/legacy_scripts/run_scale_scripts.sh",
+      "sha256": "ddc9fa53d223c16e2f82e65f62b4f8fae0d2d4a7b4df2ce93526649e8e553c6a"
+    },
+    {
+      "previous": "api_field.py",
+      "archive": "/Users/alexandrakudaeva/Desktop/research_projects/Waldo/legacy_scripts/api_field.py",
+      "sha256": "b161d33e2647a71535594952a60a365be54517d87e6a4380e80c4a4e9d07c8f4"
+    },
+    {
+      "previous": "api_scale.py",
+      "archive": "/Users/alexandrakudaeva/Desktop/research_projects/Waldo/legacy_scripts/api_scale.py",
+      "sha256": "97ead769757df84baf1f28c00c29793c774886defbc4385b35ad01ab09a0ce19"
+    },
+    {
+      "previous": "src/s3_model_cache.py",
+      "archive": "/Users/alexandrakudaeva/Desktop/research_projects/Waldo/legacy_scripts/s3_model_cache.py",
+      "sha256": "a3636399df6450325ff0d8cb5d6220d953112b169ed0db13bd5a584b58412954"
+    }
+  ],
+  "website_file_hashes": {
+    "index.html": "3143a77600bb14b1a1488c0eea3e63133cbc884607eb40e65d8a9102426600b1",
+    "styles.css": "84d8f76ca011aa660e7e4f74f96cea6f2b55abe71abbf4db6fb8ddd8f902a667",
+    "script.js": "d2c8456679f694482a13b9f303d1cdc8f9c92c11c165b6598f0f26ceb1791f0c",
+    "assets/scaling-protocols.webp": "030840bba1cfa38d2959e124c8151fba1f21f7dbd256bc1934c02db309bfed11",
+    "assets/paper.pdf": "0e53b28182d98630c784d08638fd898717e0fcb05b85aae357359e7d59c9168b",
+    "assets/waldo-scene.webp": "f5fa90ec6295ad747fa0f0b943ff0cb8a7456e3313c3f5a0b4c3be6dcd510075",
+    "assets/failure-modes.webp": "99ee34abcef42a54684decd60556d301d26df1665be55bbe7d9741f426b7ef88",
+    "assets/waldo-face.png": "b70563a716e9f3a798fefb6e342631dd05d470fde7af11a9b6b32a21ec916346",
+    "assets/market-scene.png": "99c924c61759bcf143b0d58d9211221098bf442381749da65f87ad2e5b0439e8",
+    "assets/favicon.svg": "4c4fc21a4307b4a3245f5131ef025637241cc7e8bac79030197fc7a8051e4432",
+    "assets/accuracy-curves.webp": "283808e72f312e20b59c68a08848871921a4922b172b7838fdd6d90c7f64eb2b",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "notebook_output_hashes_before_relocation": {
+    "metrics.ipynb": "736dabcd51013efe8dfce231fa45fa732e2564182ccb1ad009f97ba5f52cbc06",
+    "trajectory_analysis.ipynb": "e657ea589a6dee5b72e9dc64e5e5987d7ffcf9d7dd5da70dff476e0de83abe7d",
+    "attention_analysis/interactive_attention_analysis.ipynb": "34b36abcc47733e448777a98f969c9bbcf09e17fe4baf3c890ca63cbec04f660",
+    "notebooks/augmentations.ipynb": "2d4e93e8f3501057e0b11c36cf1deb8c177953e846a91d8a64c9393fd34eb2ce",
+    "notebooks/validate_transformations.ipynb": "14d93c42eff6634602fb95296629080e332df141d2e0207e974525a1e6b82e6d",
+    "notebooks/qwen_error_attribution.ipynb": "2d9081dfeaf8b487f69200d415bc89dc92a315fdddb3ce58e1cd79f6e518517d",
+    "notebooks/docvqa_field3_interpolation_pattern_analysis.ipynb": "ca1aa67746f9d9888c480be287f3591887a9e5970b0cd2c8a0a433c6feab6984",
+    "notebooks/llava_error_attribution.ipynb": "08408c5b80f1d035109dc84bafb1d06c30a478d251d26223e97a9a7f5a5c5be0",
+    "notebooks/mmvet_field3_interpolation_pattern_analysis.ipynb": "67acd5cfcfc4407af2d45a8a56cf0fcf12a590d96c868c1098d2fb040a8a135e",
+    "notebooks/image_size.ipynb": "2e16f9af47dc66509e53dbb6e5e37fadcea0593a81bb4782a4b75273574c04c6"
+  },
+  "notes": "Updated imports, portable root discovery, README command paths, and Pages deployment configuration. Experiment logic and cached outputs preserved; no experiments or deployment executed."
+}

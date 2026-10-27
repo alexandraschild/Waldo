@@ -1,0 +1,14 @@
+torch
+torchvision
+transformers
+pillow
+huggingface_hub
+numpy
+matplotlib
+datasets
+accelerate
+#vllm
+mistral_common
+opencv-python
+openai
+dotenv

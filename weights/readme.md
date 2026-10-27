@@ -1,0 +1,1 @@
+Download model weights from: https://huggingface.co/ai-forever/Real-ESRGAN/tree/main

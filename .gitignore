@@ -1,0 +1,25 @@
+# Local environments and credentials
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated experiments and model caches. Keep website images trackable.
+results*/
+.results*/
+VLM_results/
+evaluated*/
+model_cache/
+weights/*.pth
+*.pt
+*.pth
+*.safetensors
+scripts/attention_analysis/visuals/
+notebooks/augmentations/
+model_result_tables/
+dataframes/
+model_accuracies.png

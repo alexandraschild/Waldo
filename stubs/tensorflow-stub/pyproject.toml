@@ -1,0 +1,10 @@
+[project]
+name = "tensorflow"
+version = "0.0.0"
+description = "Empty stub - satisfies Molmo's trust_remote_code static import check. The real tensorflow codepath (resize_method == 'tensorflow') is dead code for our default config and is never actually executed."
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
