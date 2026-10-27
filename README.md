@@ -2,7 +2,7 @@
 
 This repository hosts the code for *Evaluating VLMs' Sensitivity to Image Resolution and Detail Level*, controlled evaluation framework that disentangles resolution-related performance degradation from task difficulty through semantics-preserving transformations.
 
-![Alt text](docs/images/intro.png)
+![Alt text](research-docs/images/intro.png)
 
 ## Model Evaluation
 We design an evaluation setup in which image variants share identical semantic content but differ in their pixel resolution and tokenization properties. 
@@ -36,7 +36,7 @@ Example for metrics computation: **notebooks/metrics.ipynb**
 ### Area Under the Scaling Curve (AUSC)
 AUSC measures a model's ability to maintain accuracy across progressive transformations (e.g., resolution changes) by computing the area under the accuracy curve for examples initially answered correctly, where 1 indicates perfect scaling robustness and 0 indicates complete brittleness.
 
-![Alt text](docs/images/AUSC.png)
+![Alt text](research-docs/images/AUSC.png)
 
 ```
 from src.metrics import AUSC

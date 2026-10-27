@@ -1,6 +1,6 @@
 # Experiment and analysis entry points
 
-These scripts are independent of the GitHub Pages site in `website/`. Shared Python implementation stays in `src/`; notebooks are in `notebooks/`, with the instance-level attention notebook alongside its companion scripts in `scripts/attention_analysis/`.
+These scripts are independent of the GitHub Pages site in `docs/`. Shared Python implementation stays in `src/`; notebooks are in `notebooks/`, with the instance-level attention notebook alongside its companion scripts in `scripts/attention_analysis/`.
 
 Run from the repository root after installing the project and analysis requirements. The entry points below also resolve the repository root when called by absolute path from another directory.
 
@@ -34,6 +34,6 @@ python -m src.parse_results --results-dir results --out-dir results_scored
 python -m src.parse_interpolation_results --results-dir results_interpolation_new --out-dir results_scored_interpolation
 ```
 
-These parsers use diagnostic heuristics. The legacy LLM judges (`python src/evaluate.py`, etc.) retain their original configurations and require reconciliation with the paper before paper-faithful evaluation. Consult `docs/NOTEBOOK_AUDIT.md` for missing inputs, metric-definition differences, and known plotting/evaluation issues. No new results were generated during organization.
+These parsers use diagnostic heuristics. The legacy LLM judges (`python src/evaluate.py`, etc.) retain their original configurations and require reconciliation with the paper before paper-faithful evaluation. Consult `research-docs/NOTEBOOK_AUDIT.md` for missing inputs, metric-definition differences, and known plotting/evaluation issues. No new results were generated during organization.
 
 The six historical shell sweeps, two legacy API inference drivers, and unused S3 cache helper were removed from this repository and preserved in the sibling `Waldo/legacy_scripts/` directory. No SLURM job files or cluster launchers are part of this scripts directory.
