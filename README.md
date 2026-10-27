@@ -7,7 +7,7 @@ This repository hosts the code for *Evaluating VLMs' Sensitivity to Image Resolu
 ## Model Evaluation
 We design an evaluation setup in which image variants share identical semantic content but differ in their pixel resolution and tokenization properties. 
 ### Pixel Scaling
-In this scenario, we generate higher-resolution variants of each image using a super-resolution model, specifically Real-ESRGAN. 
+In this scenario, we generate higher-resolution variants of each image using bicubic interpolation and a super-resolution model, specifically Real-ESRGAN. 
 
 ```
 python scripts/main_scale.py
